@@ -31,11 +31,11 @@ jobs:
 
       # Delete an existing file
       - name: Run a one-line script
-        run: rm deleteme.md || :
+        run: 'rm deleteme.md || :'
 
       # Delete a non-existing file
       - name: Run a one-line script
-        run: rm foo.js || :
+        run: 'rm foo.js || :'
 
       # Check
       - name: Run a one-line script
